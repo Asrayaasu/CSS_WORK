@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        #layout {
+            height: 1000px;
+            width: 600px;
+            border: 5px solid rgb(243, 184, 213);
+            margin: 10px;
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #head {
+            /* border: 3px solid black; */
+            background-color: white;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #links {
+            /* border: 2px solid black; */
+            padding: 10px;
+            justify-self: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        #logo img {
+            margin-left: 10px;
+            width: 60px;
+            align-self: flex-start;
+        }
+
+        #search {
+            justify-self: right;
+            margin-right: 10px;
+        }
+
+        #foot {
+            background-color: white;
+            height: 70px;
+            width: 600px;
+            /* border: 5px solid rgb(0, 0, 0); */
+            position: absolute;
+            top: 945px;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="layout">
+        <div id="head">
+            <div id="logo">
+                <img src="../Portfolio/img_3.jpeg" alt="logo">
+            </div>
+            <div id="links">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+       
+            <div id="foot"></div>
+       
+    </div>
+</body>
+
+</html>

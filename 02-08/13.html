@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flexbox{
+            border: 5px solid rgb(184, 153, 192);
+            width: 1000px;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .container{
+            border: 1px solid rgb(192, 250, 86);
+            /* width: 498px;
+            height: 498px; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #c1{
+            width: 420px;
+            height: 500px;
+            flex-direction: row;
+            justify-content: flex-end;
+            background-color: rgb(178, 252, 239);
+            
+        }
+        #c2{
+            width: 576px;
+            height: 500px;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: rgb(243, 216, 220);
+        }
+        .box1{
+            /* margin-top: 10px; */
+            margin: 5px;
+            width: 128px;
+            height: 237px;
+            border: 1px solid black;
+        }
+        .box2{
+            margin: 5px;
+            width: 160px;
+            height: 150px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="flexbox">
+        <div class="container" id="c1">
+            <div class="box1">Box 1</div>
+            <div class="box1">Box 2</div>
+            <div class="box1">Box 3</div>
+            <div class="box1">Box 4</div>
+            <div class="box1">Box 5</div>
+            <!-- <div class="box1">Box 3</div> -->
+        </div>
+        <div class="container" id="c2">
+            <div class="box2">Box 1</div>
+            <div class="box2">Box 2</div>
+            <div class="box2">Box 3</div>
+            <div class="box2">Box 4</div>
+            <div class="box2">Box 5</div>
+            <div class="box2">Box 6</div>
+            <div class="box2">Box 7</div>
+            <!-- <div class="box2">Box 1</div> -->
+            <!-- <div class="box2">Box 2</div> -->
+            <!-- <div class="box2">Box 3</div> -->
+        </div>
+    </div>
+</body>
+</html>

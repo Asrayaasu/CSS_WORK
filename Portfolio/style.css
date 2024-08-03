@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    background-color: rgb(247, 202, 5);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    border-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    border: 5px solid white;
+}
+.nav{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.nav:hover{
+    border: 2px white solid;
+    border-radius: 5px;
+}
+.img{
+    text-align: left;
+    width: 65%;
+    padding: 50px;
+    margin-left: 180px;
+    background-color: rgb(247, 202, 5);
+    border: 5px white solid;
+    border-radius: 40px;
+}
+.desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5cm;
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+
+#h1{
+    font-size: 80px;
+    color: rgb(247, 202, 5);
+    text-decoration: underline;
+    
+}
+.abt2{
+    
+    text-align: center;
+}
+#abt1{
+    margin-left: 100px;
+}
+#abt1 h1{
+        font-size: 40px;
+}
+#gallery h1{
+    font-size: 40px;
+    color: rgb(247, 202, 5);
+    text-align: center;
+    text-decoration: underline;
+}
+#desc2{
+    float: right;
+    text-align: center;
+    width: 800px;
+    margin-right: 100px;
+    background-color: white;
+    color: rgb(247, 202, 5);
+}
+#img2{
+    background-color: rgb(247, 202, 5);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#img2 img{
+    padding-right: 5px;
+    border-radius: 20px;
+}
+#table{
+    padding: 30px;
+    border: 5px solid rgb(247, 202, 5);
+    width: 55%;
+    
+    
+}
+#contact{
+    text-align: center;
+}
+table{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(247, 202, 5);
+}
+td{
+    color: rgb(247, 202, 5);
+    padding: 20px;
+}
+.inp{
+    border: 2px solid rgb(247, 202, 5);
+    padding: 10px 70px;
+}
+input[type=submit]{
+    color:rgb(247, 202, 5);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid rgb(247, 202, 5);
+    background-color: white;
+}
